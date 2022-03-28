@@ -1,0 +1,23 @@
+{
+  "name": "tester2",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^1.2.2",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@tensorflow/tfjs": "^3.13.0",
+    "file-system": "^2.2.2",
+    "tensorset": "^1.2.9"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.3.2",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  }
+}
